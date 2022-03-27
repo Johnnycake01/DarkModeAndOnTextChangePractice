@@ -30,6 +30,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/showValue"
         android:layout_marginTop="30dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/editText"
         app:layout_constraintEnd_toEndOf="parent"

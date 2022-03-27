@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
                             binding.editText.setText(getDecimalFormattedText(str))
                         binding.editText.setSelection(binding.editText.text.toString().length)
                     }
-                    "string without comma is : ${returnStringWithoutComma(binding.editText.toString())}"
+                    "string without comma is : ${returnStringWithoutComma(binding.editText.text.toString())}"
                         .also { binding.showValue.text = it }
                     binding.editText.addTextChangedListener(this)
                     return
